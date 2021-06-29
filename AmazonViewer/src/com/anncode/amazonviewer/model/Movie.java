@@ -79,10 +79,10 @@ public class Movie extends Film implements IVisualizable {
 		}
 		
 		//Termine de verla
-		movieSelected.stopToSee(dateI, new Date());
+		stopToSee(dateI, new Date());
 		System.out.println();
-		System.out.println("Viste: " + movieSelected);
-		System.out.println("Por: " + movieSelected.getTimeViewed() + " milisegundos");
+		System.out.println("Viste: " + toString());
+		System.out.println("Por: " + getTimeViewed() + " milisegundos");
 	}
 	
 }

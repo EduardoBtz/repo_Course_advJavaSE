@@ -61,4 +61,6 @@ public class Chapter extends Movie {
 		
 		return chapters;
 	}
+	
+	view()
 }

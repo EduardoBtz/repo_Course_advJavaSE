@@ -1,5 +1,18 @@
 package com.anncode.amazonviewer.model;
 
+/**
+ * <h1>Film Class</h1>
+ * @author Eduardo Benitez
+ * <p>
+ * This class contains method {@code view()} which
+ * is mandatory to implement for every method that belongs 
+ * to a family.
+ * 
+ * @version 1.1
+ * @since 2021
+ *
+ */
+
 public abstract class Film {
 	
 	private String title;
